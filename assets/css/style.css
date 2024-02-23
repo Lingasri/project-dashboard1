@@ -1,3 +1,99 @@
 body{
-    background-color:white ;
+    color: white;
 }
+.name {
+    font-size:70px;
+    font-family:Helvetica;
+    font-size:20px;
+    display: flex;
+    flex-direction:column;
+    height: 1050px;
+    width: 257px;
+    
+    position: absolute ;
+    align-self: start;
+    background-color: grey;
+    justify-content: flex-start;
+    
+   
+    
+}   
+.name>div{
+    
+    line-break: normal;
+    color: white;
+}
+.middle
+{
+    display: flexbox;
+    flex-wrap: nowrap;
+    flex-direction: column-reverse;
+    height: 150px;
+    background-color: grey;
+   
+    justify-content:flex-end;
+    
+}
+.middle>div{
+    display: flex;
+    border-radius: 20px;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    justify-content:flex-end;
+    
+    width: 700px;
+    height:50px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+  
+    
+}
+.content
+{
+    
+    display: flex;
+    flex-wrap:wrap;
+    height: 900px;
+    width: 1500px;
+    
+    background-color:black ;
+    justify-content: flex-end;
+    
+   
+}
+.content>div{
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: rgb(64, 63, 63);
+    height: 210px;
+    width: 350px;
+    margin: 10px;
+    padding: 20px;
+  font-size: 30px;
+  align-items: center;
+  border-radius: 10px;
+  
+  justify-content:flex-end;
+}
+p{
+    
+    font-size:20px;
+    
+}
+pre{
+    font-size: 20px;
+    font-family: Arial;
+    
+}
+table{
+    font-size: 20px;
+    
+    
+}
+td{
+    font: size 20px;
+    
+}
+
